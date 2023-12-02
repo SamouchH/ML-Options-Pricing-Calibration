@@ -1,71 +1,58 @@
-# Machine Learning Techniques for Pricing and Calibrating Financial Models
+# Machine Learning for Financial Modeling
 
-This repository contains the code and documentation for my project on leveraging machine learning techniques to enhance the pricing and calibration of financial models, specifically focusing on the Black-Scholes and Heston models as well as the SABR model calibration.
+This repository is dedicated to the exploration and implementation of machine learning techniques in financial modeling, particularly focusing on the Black-Scholes and Heston models for option pricing. The work here is deeply rooted in academic research and seeks to bridge the gap between theoretical finance and practical application through machine learning.
 
 ## Overview
 
-The goal of this project is to apply modern machine learning methods to improve the calibration of financial models used for option pricing. Traditional pricing models like Black-Scholes have limitations, particularly in dealing with market anomalies and the complex nature of financial instruments. By integrating machine learning, particularly Artificial Neural Networks (ANN), we can address these issues and achieve a more accurate and robust calibration process.
+In the realm of financial derivatives and risk management, accurate pricing models are indispensable. This project aims to refine the calibration of the Black-Scholes and Heston models, two cornerstone models in financial mathematics, by integrating sophisticated machine learning algorithms. Grounded in extensive research, this initiative translates complex theories into actionable, advanced computational methods.
 
-## Deep Learning Volatility
+### Black-Scholes Model
 
-Inspired by the work of Blanka Horvath et al., this project explores deep neural network perspectives for pricing and calibration within volatility models. The paper "Deep Learning Volatility" provides a foundational methodology for the application of deep learning to financial models, and this project aims to expand upon that work.
+The Black-Scholes model serves as the cornerstone of modern financial theory for option pricing. Here, we explore the enhancement of this model through machine learning techniques, dissecting and implementing findings from leading research papers to address the model's limitations, especially in the presence of market anomalies.
 
-### Features
+### Heston Model
 
-- Implementation of ANN for model calibration.
-- Evaluation of model performance against traditional methods.
-- Application of Generative Adversarial Networks (GANs) for predictive analysis.
+The Heston model introduces stochastic volatility to capture the dynamic nature of markets more accurately. This repository contains methodologies to harness machine learning for efficient calibration of the Heston model, ensuring that the volatility smile is modeled with greater precision.
 
-## SABR Model Calibration and Hedging
+## Research-Driven Approach
 
-Building on the concepts presented by Hughes Thorin in "Artificial Neural Networks for SABR model calibration & hedging," this project applies ANN techniques to the SABR model, focusing on the calibration and hedging of exotic options.
+Each model's directory includes a detailed analysis of the algorithms applied, benchmark comparisons, and a review of the relevant literature that has informed the development process.
 
-### Highlights
+- `Black_Scholes_Research.ipynb`: A notebook containing the research-driven approach to calibrating the Black-Scholes model with machine learning.
+- `Heston_Model_Research.ipynb`: A notebook focused on calibrating the Heston model using advanced machine learning techniques derived from current academic research.
 
-- Calibration of the SABR model using ANN.
-- Hedging strategies informed by machine learning insights.
-- Comparative analysis of ANN versus traditional methods for SABR model calibration.
+## Current Status
+
+The project is in active development, with ongoing efforts to incorporate the latest research findings. Further updates and enhancements are forthcoming.
 
 ## Getting Started
 
-To explore these models, you can clone this repository and follow the instructions below:
+To delve into the models:
 
 ```bash
 git clone https://github.com/SamouchH/machine-learning-financial-models.git
 cd machine-learning-financial-models
-# Follow specific instructions for setting up the environment, running simulations, etc.
+# Instructions for setting up the environment and running simulations will be provided here.
 ```
 
 ## Requirements
 
 - Python 3.x
-- NumPy, Pandas, Matplotlib, SciPy, TensorFlow/Keras
-- Jupyter Notebook or equivalent for running .ipynb files
-
-## Usage
-
-Each model's implementation is contained in its own notebook:
-
-- `Black_Scholes_Calibration.ipynb`: Notebook for calibrating the Black-Scholes model.
-- `Heston_Model_Calibration.ipynb`: Notebook for calibrating the Heston model.
-- `SABR_Calibration_Hedging.ipynb`: Notebook for SABR model calibration and hedging.
+- Libraries: NumPy, Pandas, Matplotlib, SciPy, TensorFlow/Keras
+- Jupyter Notebook for running `.ipynb` files
 
 ## Contributions
 
-Contributions to this project are welcome. Please submit a pull request or create an issue for any features or improvements you would like to suggest.
+Your contributions to this project are welcome. Please feel free to fork the repository, make your improvements, and submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is open-source and available under the MIT License.
 
 ## Acknowledgments
 
-- Blanka Horvath for her research and insights into the application of deep learning in financial volatility models.
-
+A special thanks to the authors of the research papers that have inspired the methodologies used in this project. Their insights into the application of machine learning to financial modeling have been invaluable.
 
 ## Contact
 
-For any further inquiries, please reach out to [samoucheharoune@gmail.com].
-```
-
-Please note that this project is currently under development, and more content will be added in the near future.
+For questions or collaborations, please reach out to samoucheharoune@gmail.com.
